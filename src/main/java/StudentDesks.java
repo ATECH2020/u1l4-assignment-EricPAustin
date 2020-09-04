@@ -35,7 +35,7 @@ class StudentDesks {
           desksNeeded += (1 + (number3 / 2));
         }
 
-      System.out.println(desksNeeded);
+      System.out.print(desksNeeded);
 
         // closing the scanner object
         scanner.close();

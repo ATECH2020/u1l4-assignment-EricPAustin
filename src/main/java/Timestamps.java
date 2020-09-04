@@ -28,7 +28,7 @@ class Timestamps {
         time += totalMinutes * 60;
         time += totalSeconds;
 
-        System.out.println(time);
+        System.out.print(time);
 
         // closing the scanner object
         scanner.close();

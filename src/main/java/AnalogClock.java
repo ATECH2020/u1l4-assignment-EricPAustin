@@ -11,7 +11,7 @@ class AnalogClock {
         
         int newAngle = angle % 15;
         newAngle *= 12;
-        System.out.println(newAngle);
+        System.out.print(newAngle);
         // closing the scanner object
         scanner.close();
     }
