@@ -12,11 +12,10 @@ class SecondsPastMidnight {
         int hours, minutes;
 
         //Your code goes here
-        hours = (seconds / 60) / 60;
+        hours = 3600;
         minutes = seconds / 60;
         if (hours < 24) {
-        System.out.println("Hours: " + hours);
-        System.out.println("Minutes: " + minutes);
+        System.out.println(hours + " " + minutes);
         } else {
           System.out.println("It is now past midnight of the next day.");
         }
