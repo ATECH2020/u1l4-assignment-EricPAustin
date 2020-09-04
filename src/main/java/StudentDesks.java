@@ -10,11 +10,8 @@ class StudentDesks {
         int desksNeeded = 0;
 
         //Reads ints from user
-        System.out.println("Enter how many students in class A:");
         int number1 = scanner.nextInt();
-        System.out.println("Enter how many students in class B:");
         int number2 = scanner.nextInt();
-        System.out.println("Enter how many students in class C:");
         int number3 = scanner.nextInt();
         /*
          *  your code goes here
@@ -38,7 +35,7 @@ class StudentDesks {
           desksNeeded += (1 + (number3 / 2));
         }
 
-      System.out.println("Desks needed: " + desksNeeded);
+      System.out.println(desksNeeded);
 
         // closing the scanner object
         scanner.close();
