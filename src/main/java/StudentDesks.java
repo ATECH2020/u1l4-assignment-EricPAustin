@@ -6,13 +6,36 @@ class StudentDesks {
         //Creates a new scanner for user input
         Scanner scanner = new Scanner(System.in);
 
-        //Reads ints from user
-        
+        //Total of desks needed
+        int desksNeeded = 0;
 
+        //Reads ints from user
+        int number1 = scanner.nextInt();
+        int number2 = scanner.nextInt();
+        int number3 = scanner.nextInt();
         /*
          *  your code goes here
          */
+        if((number1 % 2) == 0){
+          desksNeeded += (number1 /2);
+        }
+        else {
+          desksNeeded += (1 + (number1 / 2));
+          }
+        if((number2 % 2) == 0) {
+          desksNeeded += (number2 /2);
+        } 
+        else {
+          desksNeeded += (1 + (number2 / 2));
+        }
+        if((number3 % 2) == 0) {
+          desksNeeded += (number3 /2);
+        }
+        else {
+          desksNeeded += (1 + (number3 / 2));
+        }
 
+      System.out.print(desksNeeded);
 
         // closing the scanner object
         scanner.close();
